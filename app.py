@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_restful import Api, Resource
 import pickle
 import pandas as pd
+import sklearn
 
 
 app = Flask(__name__)
