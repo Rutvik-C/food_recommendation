@@ -68,5 +68,5 @@ api.add_resource(UserRecommendation, "/user-recommendation")
 api.add_resource(SimilarRecommendation, "/similar-recommendation")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
 
