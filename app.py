@@ -37,7 +37,7 @@ class UserRecommendation(Resource):
         if doc.exists:
             doc = doc.to_dict()
 
-            user_feature = doc["rec_arr"]
+            user_feature = doc["user_choice"]
             user_feature.insert(0, doc["spice"])
             user_feature.insert(0, doc["preference"])
 
